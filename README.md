@@ -63,16 +63,16 @@ wget "http://jenkins.ic2.player.to/job/IC2_experimental/lastSuccessfulBuild/arti
 
 ### 客户端
 1. 安装jdk 1.8
-https://www.oracle.com/hk/java/technologies/javase/javase8u211-later-archive-downloads.html
++ https://www.oracle.com/hk/java/technologies/javase/javase8u211-later-archive-downloads.html
 
 2. 下载BMCL，启动并安装1.7.10版本（不在此安装Forge）
-https://www.bangbang93.com/topic/141/bmcl-4-11-1
++ https://www.bangbang93.com/topic/141/bmcl-4-11-1
 
 3. 下载并安装Forge
-https://maven.minecraftforge.net/net/minecraftforge/forge/1.7.10-10.13.4.1614-1.7.10/forge-1.7.10-10.13.4.1614-1.7.10-installer.jar
++ https://maven.minecraftforge.net/net/minecraftforge/forge/1.7.10-10.13.4.1614-1.7.10/forge-1.7.10-10.13.4.1614-1.7.10-installer.jar
 
 4. 安装工业2 mod
-http://jenkins.ic2.player.to/job/IC2_experimental/lastSuccessfulBuild/artifact/build/libs/industrialcraft-2-2.2.828-experimental.jar
++ http://jenkins.ic2.player.to/job/IC2_experimental/lastSuccessfulBuild/artifact/build/libs/industrialcraft-2-2.2.828-experimental.jar
 
 5. 启动游戏，成了
 

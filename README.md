@@ -9,7 +9,7 @@
 + minecraft 1.7.10
 + Forge（注意完整下载）（直接运行这个即可，不用额外下载minecraft server.jar）
 	+ https://minecraft.fandom.com/wiki/Tutorials/Setting_up_a_Minecraft_Forge_server
-+ industrial craft
++ industrial craft 2
 	+ https://wiki.industrial-craft.net/index.php?title=Download
 	+ http://jenkins.ic2.player.to/job/IC2_experimental/lastSuccessfulBuild/artifact/build/libs/industrialcraft-2-2.2.828-experimental.jar
 
@@ -31,26 +31,35 @@ java -jar forge-1.7.10-10.13.4.1614-1.7.10-installer.jar --installServer
 3. 修复log4j漏洞（CVE-2021-44228）
 ```
 wget "https://launcher.mojang.com/v1/objects/4bb89a97a66f350bc9f73b3ca8509632682aea2e/log4j2_17-111.xml"
+```
+
+4. 运行游戏
+```
 java -Xmx1024M -Xms1024M -Dlog4j.configurationFile=log4j2_17-111.xml -jar forge-1.7.10-10.13.4.1614-1.7.10-universal.jar nogui
 ```
 
-4. 同意eula.txt
+5. 同意eula.txt
 ```
 eula=true
 ```
 
-5. 修改server.properties
+6. 再次运行游戏
+```
+java -Xmx1024M -Xms1024M -Dlog4j.configurationFile=log4j2_17-111.xml -jar forge-1.7.10-10.13.4.1614-1.7.10-universal.jar nogui
+```
+
+7. 修改server.properties
 ```
 online-mode=false
 ```
 
-6. 添加工业2mod（Industrial Craft 2）
+8. 添加工业2mod（Industrial Craft 2）
 ```
 mkdir ~/minecraft/mods && cd ~/minecraft/mods
 wget "http://jenkins.ic2.player.to/job/IC2_experimental/lastSuccessfulBuild/artifact/build/libs/industrialcraft-2-2.2.828-experimental.jar"
 ```
 
-7. 再次启动游戏，成了
+9. 再次运行游戏，成了
 
 ### 客户端
 1. 安装jdk 1.8
